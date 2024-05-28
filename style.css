@@ -1,0 +1,39 @@
+@media (max-width: 767px) {
+    /* Ajustes para o cabeçalho */
+    .navbar-brand img {
+        max-width: 100%; /* Para preencher o espaço disponível */
+        height: auto; /* Manter a proporção da imagem */
+    }
+
+    .navbar-toggler {
+        padding: 0.5rem; /* Aumentar o padding para facilitar o toque em dispositivos móveis */
+    }
+
+    .navbar-nav {
+        margin-top: 20px; /* Aumentar o espaço superior para melhor legibilidade */
+    }
+
+    /* Ajustes para a seção de introdução */
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .container.text-center {
+        padding-top: 30px; /* Reduzir o padding para evitar muito espaço em branco */
+        padding-bottom: 30px;
+    }
+
+    .container.text-center h1 {
+        font-size: 20px; /* Reduzir o tamanho da fonte para melhor ajuste em telas menores */
+    }
+
+    .container.text-center p {
+        font-size: 14px; /* Reduzir o tamanho da fonte para melhor ajuste em telas menores */
+    }
+
+    /* Ajustes para as seções seguintes */
+    section.container {
+        padding-top: 20px; /* Reduzir o padding para evitar muito espaço em branco */
+        padding-bottom: 20px;
+    }
+}
